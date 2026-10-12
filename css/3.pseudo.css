@@ -1,0 +1,55 @@
+body {
+    background-color: rgb(245, 245, 245);
+}
+
+header {
+    display: flex;
+    justify-content: center;
+}
+
+.mainbox {
+    display: flex;
+    margin-top: 70px;
+    justify-content: center;
+
+}
+
+.box {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 500px;
+    gap: 15px;
+}
+
+.boxbig {
+    display: flex;
+    position: relative;
+    width: 200px;
+    height: 350px;
+    border: 5px solid white;
+}
+
+.box .boxs {
+    position: absolute;
+    top: 20px;
+    background-color: white;
+    width: 200px;
+    height: 120px;
+    border: none;
+}
+
+.boxbig:nth-child(1) {
+    background-color: tomato;
+}
+.boxbig:nth-child(2) {
+    background-color: teal;
+}
+.boxbig:nth-child(3) {
+    background-color: burlywood;
+}
+.boxbig:nth-child(4) {
+    background-color: thistle;
+}
+
+
